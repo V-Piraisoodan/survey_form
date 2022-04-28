@@ -1,0 +1,170 @@
+body{
+    margin: 10px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(56, 69, 247, 0.747);
+    border-radius: 10px;
+    width: 55%;
+    align-items: flex-start;
+    margin: auto;
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(27, 26, 26);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Name Heading */
+.name{
+    margin-bottom: 5px;
+}
+/* red colour star styling */
+.red{
+    color: red;
+    font-size: 21px;
+    padding-left: 2px;
+}
+/* Name input box */
+.namebox{
+    display: flex;
+    gap: 20px;
+}
+.inputbox{
+    width: 250px;
+    height: 25px;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 6px;
+    outline: none;
+}
+.inputbox:focus{
+    outline: none;
+    border:2px solid rgba(70, 67, 248, 0.4);
+    box-shadow: 5px -1px 10px rgba(70, 67, 248, 0.4);
+}
+/* label styling */
+.label{
+    color: rgb(18, 151, 0);
+    font-size: 14px;
+    padding: 5px 0px 0px 2px;
+}
+/* Email styling */
+.email{
+    margin: 15px 0px 5px 0px;
+}
+/* email inputbox styling */
+.emailbox{
+    height: 25px;
+    width: 540px;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 6px;
+    outline: none;
+}
+.emailbox:focus{
+    border:2px solid rgba(70, 67, 248, 0.4);
+    box-shadow: 5px -1px 10px rgba(70, 67, 248, 0.4);
+}
+/* Experience and rating-star styling */
+.experience{
+    margin: 15px 0px 5px 0px;
+}
+.star{
+    margin-bottom: 20px;
+}
+
+
+/* Rating styling */
+.rating_heading1{
+    margin: 18px 0px 0px 0px;
+}
+/* rating container styling */
+.rating{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.rating_content{
+    display: grid;
+    border-radius: 5px;
+    height: auto;
+    grid-template-columns: 1.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;   
+}
+.rating_value{
+    padding: 7px 3px 6px 3px;
+    font-size: 13px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+/* radio button styling */
+.radio{
+    padding: 7px 3px 6px 3px;
+    justify-self: center;
+    align-self: center;
+}
+.radio1{
+    height: 15px;
+    width: 15px;
+}
+.rating_heading{
+    align-self:center;
+    padding: 7px 3px 6px 3px;
+    height: auto;
+}
+/* even child backround colour styling */
+.even{
+    background-color: pink;
+    height: auto;
+}
+/* comment section styling */
+.comment_title{
+    margin: 18px 0px 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comment_box{
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 6px;
+    margin: auto;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 98%;
+    outline: none;
+}
+.comment_box:focus{
+    border:2px solid rgba(70, 67, 248, 0.4);
+    box-shadow: 5px -1px 10px rgba(70, 67, 248, 0.4);
+}
+/* button section styling */
+.button{
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    background-color:rgb(5, 80, 31);
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(4, 139, 4);
+}
+.button:active{
+    color:rgb(255, 255, 255);
+    background-color: rgb(6, 158, 6);
+}
